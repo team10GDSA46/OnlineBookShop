@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectASPNET", "ProjectASPNET\ProjectASPNET.csproj", "{D40AD8F9-EE9F-40A1-98F9-AF4BCAB41A4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizLogicServer", "BizLogicServer\BizLogicServer.csproj", "{0B881071-AD46-466A-91B9-876AD348C0FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D40AD8F9-EE9F-40A1-98F9-AF4BCAB41A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D40AD8F9-EE9F-40A1-98F9-AF4BCAB41A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D40AD8F9-EE9F-40A1-98F9-AF4BCAB41A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D40AD8F9-EE9F-40A1-98F9-AF4BCAB41A4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B881071-AD46-466A-91B9-876AD348C0FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B881071-AD46-466A-91B9-876AD348C0FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B881071-AD46-466A-91B9-876AD348C0FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B881071-AD46-466A-91B9-876AD348C0FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39CE6DC7-055D-472F-9A22-FD91AFB216FA}
+	EndGlobalSection
+EndGlobal
