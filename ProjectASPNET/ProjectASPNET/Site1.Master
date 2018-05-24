@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ProjectASPNET.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+	<title></title>
+	<asp:ContentPlaceHolder ID="head" runat="server">
+		121
+	</asp:ContentPlaceHolder>
+	<style type="text/css">
+		.item1 {
+			grid-area: header;
+		}
+
+		.item2 {
+			grid-area: menu;
+		}
+
+		.item3 {
+			grid-area: main;
+		}
+
+		.item4 {
+			grid-area: right;
+		}
+
+		.grid-container {
+			display: grid;
+			grid-template-areas: 'right header header header header header' 'menu main main main main main' 'menu main main main main main';
+			grid-gap: 10px;
+			background-color: #2196F3;
+			padding: 10px;
+		}
+
+			.grid-container > div {
+				background-color: rgba(255, 255, 255, 0.8);
+				text-align: center;
+				padding: 20px 0;
+				font-size: 30px;
+			}
+	</style>
+</head>
+<body>
+
+	<div class="grid-container">
+		<div class="item1">Header</div>
+		<div class="item2">Menu</div>
+		<div class="item3">
+			<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+				
+			</asp:ContentPlaceHolder>
+		</div>
+		<div class="item4">
+			<%--is there a simplier way to write this--%><img src="C:\Users\James Wang\source\OnlineBookShop\ProjectASPNET\ProjectASPNET\images\9780374300210.jpg" />
+		</div>
+
+	</div>
+
+
+</body>
+</html>
